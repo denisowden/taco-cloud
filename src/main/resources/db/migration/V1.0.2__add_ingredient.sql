@@ -1,0 +1,5 @@
+CREATE TABLE ingredient(
+  id VARCHAR(4) PRIMARY KEY ,
+  name VARCHAR(25) NOT NULL ,
+  type VARCHAR(10) NOT NULL
+);

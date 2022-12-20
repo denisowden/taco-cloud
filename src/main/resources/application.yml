@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taco_db
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: validate
